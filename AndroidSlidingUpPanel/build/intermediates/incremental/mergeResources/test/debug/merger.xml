@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="D:\work\Android\VKB\AndroidSlidingUpPanel\build\intermediates\bundles\debug\res" >
+            <file
+                name="above_shadow"
+                path="D:\work\Android\VKB\AndroidSlidingUpPanel\build\intermediates\bundles\debug\res\drawable\above_shadow.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                path="D:\work\Android\VKB\AndroidSlidingUpPanel\build\intermediates\bundles\debug\res\values\values.xml"
+                qualifiers="" >
+                <declare-styleable name="SlidingUpPanelLayout" >
+                    <attr
+                        name="collapsedHeight"
+                        format="dimension" />
+                    <attr
+                        name="shadowHeight"
+                        format="dimension" />
+                    <attr
+                        name="fadeColor"
+                        format="color" />
+                    <attr
+                        name="flingVelocity"
+                        format="integer" />
+                    <attr
+                        name="dragView"
+                        format="reference" />
+                </declare-styleable>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="D:\work\Android\VKB\AndroidSlidingUpPanel\src\androidTest\res" />
+        <source path="D:\work\Android\VKB\AndroidSlidingUpPanel\build\generated\res\rs\test\debug" />
+        <source path="D:\work\Android\VKB\AndroidSlidingUpPanel\build\generated\res\generated\test\debug" />
+    </dataSet>
+
+</merger>
