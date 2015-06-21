@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="19.1.0" >
+        <source path="D:\work\Android\VKB\task\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="D:\work\Android\VKB\task\build\intermediates\exploded-aar\VKB\pullToRefresh\unspecified\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="D:\work\Android\VKB\task\build\intermediates\exploded-aar\VKB\dataDroid\unspecified\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="D:\work\Android\VKB\task\build\intermediates\exploded-aar\VKB\AndroidSlidingUpPanel\unspecified\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="D:\work\Android\VKB\task\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\work\Android\VKB\task\src\debug\assets" />
+    </dataSet>
+
+</merger>

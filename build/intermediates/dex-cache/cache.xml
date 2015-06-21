@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\VKB\task\build\intermediates\exploded-aar\VKB\pullToRefresh\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="99b053df82702eb6278eaac01d82d6c40e4dfe5a">
+        <dex dex="D:\Android\VKB\task\build\intermediates\pre-dexed\debug\classes-d2932b2b39a3df1ec64d98567a784e0386799131.jar" />
+    </item>
+    <item
+        jar="D:\Android\VKB\task\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.0.30\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e">
+        <dex dex="D:\Android\VKB\task\build\intermediates\pre-dexed\debug\classes-b3069a13d7b66c257ade3418fa68119c4f804e01.jar" />
+    </item>
+    <item
+        jar="D:\Android\SDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\Android\VKB\task\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e2d15c1468a232c3f7a41a6dbcb2cb94c085c0ec.jar" />
+    </item>
+    <item
+        jar="D:\Android\VKB\task\build\intermediates\exploded-aar\VKB\dataDroid\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="66e9ab565b8d346a395fa0e896d2c68068ade309">
+        <dex dex="D:\Android\VKB\task\build\intermediates\pre-dexed\debug\classes-1d541a71ccd3f2878ba188e335b0a12a0f27e394.jar" />
+    </item>
+    <item
+        jar="D:\Android\VKB\task\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\Android\VKB\task\build\intermediates\pre-dexed\debug\classes-6accadc1047c41b4bd8319018e94181fddef5128.jar" />
+    </item>
+    <item
+        jar="D:\Android\VKB\task\build\intermediates\exploded-aar\VKB\AndroidSlidingUpPanel\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="21b7e15e46756e6c475d63f0c3952cf4a71ae48f">
+        <dex dex="D:\Android\VKB\task\build\intermediates\pre-dexed\debug\classes-76a21ab19b062d51553ebb549c4c288b969acd47.jar" />
+    </item>
+
+</items>

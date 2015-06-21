@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/login_layout"
+    android:visibility="visible"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/login_logo_layout"
+        android:background="@drawable/bg_behind_logo"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/login_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/topMenuDelimiter"
+            android:text="ВКБ Задачи"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/login_native_layout"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/login_logo_layout">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/host"
+                android:hint="@string/host"
+                style="@style/edit_text.login" />
+            <EditText
+                android:id="@+id/login"
+                android:hint="@string/login"
+                style="@style/edit_text.login" />
+            <EditText
+                android:id="@+id/password"
+                android:imeActionId="@+id/sign_in_button"
+                android:imeActionLabel="@string/Enter"
+                android:imeOptions="actionGo"
+                style="@style/edit_text.login.password"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Enter"
+                style="@style/button" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/D:/work/Android/VKB/task/src/main/res/layout/login_activity.xml -->

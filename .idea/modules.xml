@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSlidingUpPanel/AndroidSlidingUpPanel.iml" filepath="$PROJECT_DIR$/AndroidSlidingUpPanel/AndroidSlidingUpPanel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VKB.iml" filepath="$PROJECT_DIR$/VKB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataDroid/dataDroid.iml" filepath="$PROJECT_DIR$/dataDroid/dataDroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefresh/pullToRefresh.iml" filepath="$PROJECT_DIR$/pullToRefresh/pullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
+    </modules>
+  </component>
+</project>
